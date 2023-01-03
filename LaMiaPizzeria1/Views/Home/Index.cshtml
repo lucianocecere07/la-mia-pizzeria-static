@@ -5,17 +5,84 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link href="" rel="stylesheet" />
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>La Mia Pizzeria</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="" rel="stylesheet" />
+    </head>
 
-<body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+    <body>
+    
+        <nav class="navbar bg-body-tertiary py-3">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1">La Mia Pizzeria</span>
+            </div>
+        </nav>
+
+        <div class="container">
+            <h1 class="my-3">Le mie pizze</h1>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Descrizione</th>
+                        <th scope="col" style="width: 20%">Foto</th>
+                        <th scope="col">Prezzo</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Margherita</td>
+                        <td>pomodoro, mozzarella e basilico</td>
+                        <td><img src="~/img/pizza-margherita.jpg" class="img-fluid" alt="Margherita"></td>
+                        <td>5.50€</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Marinara</td>
+                        <td>pomodoro, aglio, origano e olio</td>
+                        <td><img src="~/img/pizza-marinara.jpg" class="img-fluid" alt="Marinara"></td>
+                        <td>5.00€</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Diavola</td>
+                        <td>pomodoro, mozzarella, basilico e salame piccante</td>
+                        <td><img src="~/img/pizza-diavola.jpg" class="img-fluid" alt="Diavola"></td>
+                        <td>6.50€</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Napoli</td>
+                        <td>pomodoro, mozzarella e alici</td>
+                        <td><img src="~/img/pizza-napoli.jpg" class="img-fluid" alt="Napoli"></td>
+                        <td>6.50€</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Crostino</td>
+                        <td>mozzarella e prosciutto cotto</td>
+                        <td><img src="~/img/pizza-crostino.jpg" class="img-fluid" alt="Crostino"></td>
+                        <td>6.00€</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">6</th>
+                        <td>Ortolana</td>
+                        <td>mozzarella, zucchine, peperoni e funghi </td>
+                        <td><img src="~/img/pizza-ortolana.jpg" class="img-fluid" alt="Ortolana"></td>
+                        <td>7.00€</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
 
 </html>

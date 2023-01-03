@@ -6,4 +6,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Nuova cartella1\" />
+    <Folder Include="wwwroot\Nuova cartella2\" />
+    <Folder Include="wwwroot\Nuova cartella\" />
+  </ItemGroup>
+
 </Project>
